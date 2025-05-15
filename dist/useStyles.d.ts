@@ -1,0 +1,1 @@
+export declare function createUseStylesFactory<TTheme, TStyles extends Record<string, any>, TOutput>(theme: TTheme, createStylesFn: (styles: TStyles) => TOutput): (stylesFn: (theme: TTheme) => TStyles) => TOutput;

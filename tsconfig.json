@@ -1,29 +1,13 @@
 {
   "compilerOptions": {
-    "rootDir": ".",
-    "paths": {
-      "react-native-use-styles": ["./src/index"]
-    },
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "jsx": "react-jsx",
-    "lib": ["ESNext"],
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "noEmit": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
-    "noImplicitUseStrict": false,
-    "noStrictGenericChecks": false,
-    "noUncheckedIndexedAccess": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
+    "target": "ES2019",
+    "module": "CommonJS",
+    "declaration": true,
+    "outDir": "dist",
     "strict": true,
-    "target": "ESNext",
-    "verbatimModuleSyntax": true
-  }
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"]
 }
